@@ -1,6 +1,9 @@
 # Stochastic Taylor Derivative Estimator for High Order multivariable Differential Operators 2
 
 Abstract
+
 This paper presents a scalable framework for computing high-order derivatives in neural networks using the Stochastic Taylor Derivative Estimator (STDE) within parallel and distributed computing environments. Targeting PhysicsInformed Neural Networks (PINNs), the work extends the theoretical and practical applicability of STDE-a method based on univariate Taylor-mode automatic differentiation and randomized jet sampling by integrating it into the JAX ecosystem with distributed primitives like pmap and pjit. The implementation achieves significant speedups and memory efficiency by decoupling the expensive tensorial computations typically associated with high-order derivatives. Experimental benchmarks on many-body Schrödinger demonstrate near-linear scalability and significant runtime improvements, achieving up to 6.86× speedups over single-GPU baselines. Our results show that STDE, when combined with distributed computation, bridges a critical gap in scalable scientific machine learning by enabling efficient, high-order autodiff in massively parallel environments.
 
-Index Terms—STDE, distributed systems, PINNs, PDEs, JAX, Schrödinger equation, HPC.
+Index Terms
+
+STDE, distributed systems, PINNs, PDEs, JAX, Schrödinger equation, HPC.
