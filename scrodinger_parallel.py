@@ -86,7 +86,7 @@ def run_distributed_energy(batch_size, dim=128, layers=3, hidden_dim=128, save_r
 if __name__ == "__main__":
     run_distributed_energy(batch_size=128, dim=128, save_results=True)
 
-#(stde) root@lamda-dev:/data/Text/BDI/Kitchen/STDE $ python3 scrodinger.py 
+# $ python3 scrodinger.py 
 #Running Many-body Energy Estimator with 4 GPUs, batch_size=128, dim=128
 #Mean Energy: 60.312801
 #Total computation time: 9.8028 seconds
